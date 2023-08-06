@@ -19,8 +19,10 @@ button.textContent = 'Set new Grid';
 button.style.border = '2px solid teal';
 button.addEventListener('click', () => {
     newGridSize = parseInt(prompt('Enter the number of squares per side for a new grid: '));
-    if (newGridSize > 100 || isNaN(newGridSize)) {
+    if (newGridSize > 100 ) {
         alert('Please enter a value not more than 100');
+    } else if (isNaN(newGridSize)) {
+        alert('Please enter a numeric');
     } else {
         gridSize = newGridSize;
         createGrid();
