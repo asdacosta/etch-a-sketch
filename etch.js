@@ -14,6 +14,18 @@ function createGrid() {
 }
 createGrid();
 
+function everGreen() {
+    divArray.forEach(div => {
+        div.addEventListener('mouseenter', () => {
+            div.style.backgroundColor = 'green';
+        })
+        div.addEventListener('mouseleave', () => {
+            div.style.backgroundColor = 'green';
+        })
+    })
+}
+everGreen();
+
 const button = document.createElement('button');
 button.textContent = 'Set new Grid';
 button.style.border = '2px solid teal';
@@ -26,15 +38,7 @@ button.addEventListener('click', () => {
     } else {
         gridSize = newGridSize;
         createGrid();
+        everGreen();
     }
 })
 document.body.prepend(button);
-
-divArray.forEach(div => {
-    div.addEventListener('mouseenter', () => {
-        div.style.backgroundColor = 'green';
-    })
-    div.addEventListener('mouseleave', () => {
-        div.style.backgroundColor = 'green';
-    })
-})
