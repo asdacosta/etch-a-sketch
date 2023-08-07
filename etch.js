@@ -16,10 +16,10 @@ createGrid();
 
 function everGreen() {
     divArray.forEach(div => {
-        const randomRed = Math.floor(Math.random() * 256);
-        const randomGreen = Math.floor(Math.random() * 256);
-        const randomBlue = Math.floor(Math.random() * 256);
         div.addEventListener('mouseenter', () => {
+            const randomRed = Math.floor(Math.random() * 256);
+            const randomGreen = Math.floor(Math.random() * 256);
+            const randomBlue = Math.floor(Math.random() * 256);
             div.style.backgroundColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
         })
         div.addEventListener('mouseleave', () => {
