@@ -1,10 +1,10 @@
-# Etch-A-Sketch
+# Etch A Sketch
 
 ## Project Origin
 TheOdinProject
 
 ## Project Objective
-Aims to build an Etch-A-Sketch with JavaScript and CSS.
+Aims to build an Etch A Sketch with JavaScript and CSS.
 
 ## Project Relevance
 To solidify concepts learnt in JavaScript
@@ -20,3 +20,4 @@ Developers, users, and recruiters.
 
 | Files | Description |
 | - | - |
+|`etch.js`| Creates a default grid size etch-a-sketch. The grid size is mutable and the colors upon hovering effect changes. |
