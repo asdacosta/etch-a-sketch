@@ -20,4 +20,5 @@ Developers, users, and recruiters.
 
 | Files | Description |
 | - | - |
-|`etch.js`| Creates a default grid size etch-a-sketch. The grid size is mutable and the colors upon hovering effect changes. |
+|`etch.js`| Creates a default grid size etch-a-sketch. The grid size is mutable and the colors upon hovering effect changes. \n
+[Etch A Sketch](https://asdacosta.github.io/etch-a-sketch/) |
